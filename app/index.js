@@ -1,4 +1,4 @@
-exports.init = function hola() {
+exports.init = function() {
     let multiplos = [3, 5];
     let res = [0] //Le agrege un valor cero, para que los testing unitarios y los valores comienzen desde la posicion 1
     for (let index = 1; index <= 100; index++) {
